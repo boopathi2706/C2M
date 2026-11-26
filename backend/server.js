@@ -10,7 +10,7 @@ const app = express();
 // CORS configuration
 app.use(
   cors({
-    origin: "https://c2-m-iota.vercel.app/",
+    origin: "https://c2-m-iota.vercel.app",
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH"],
     allowedHeaders: ["Content-Type", "Authorization"],
   })
